@@ -31,7 +31,7 @@ const navigate = useNavigate();
 const [isActive, setIsActive] = useState("dashboard");
 
 return (
-    <div className="sticky top-5 flex h-[93vh] flex-col items-center justify-between">
+<div className="sticky top-5 flex h-[93vh] flex-col items-center justify-between">
         <Link to="/">
             <div className="rounded-[10px] bg-[#2c2f32] p-2">
             <IconHeartHandshake size={40} color="#1ec070" className=" " />
@@ -57,7 +57,7 @@ return (
 
         <Icon styles="bg-[#1c1c24] shadow-secondary" imgUrl={sun} />
     </div>
-    </div>
+</div>
     );
 };
 
